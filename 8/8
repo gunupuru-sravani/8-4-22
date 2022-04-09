@@ -1,0 +1,27 @@
+import java.io.*;
+class operations
+{
+ public static void main(String[] args)
+    {
+  int a=5,b=10,c=5;
+System.out.println(a==b);
+System.out.println(a==c);
+System.out.println(a>b);
+System.out.println(a<b);
+System.out.println(a>=c);
+System.out.println(a<=b);
+System.out.println(a!=b);
+}
+}
+
+output:
+D:\>javac operations.java
+
+D:\>java operations
+false
+true
+false
+true
+true
+true
+true
